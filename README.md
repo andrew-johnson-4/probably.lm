@@ -23,7 +23,7 @@ The data structure is fairly simple:
 * compounds: logic chaining based on truth tables for standard operations not/and/or/xor/implies etc.
 * `x and y` from the above example creates a new compound dynamically from the existing belief chain or roots supplied
 * learning can backpropagate information towards the roots
-* non-default activation function can be implemented as adverbs `a and b @sigmoid`
+* non-default activation functions can be implemented as adverbs `a and b @sigmoid`
 
 Goals:
 * maybe this will be the first major non-core library for LM/LSTS

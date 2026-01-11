@@ -42,7 +42,7 @@ The data structure is fairly simple:
 * non-default activation functions can be implemented as adverbs `a and b @sigmoid`
 * can performance be good enough for active learning?
 * jitter by default: need to add an epsilon to break symmetry for initial deadlock in operators like xor
-   * jitter at initialization or jitter as smaller epsilon during learning?
+   * jitter at fact initialization or jitter as smaller epsilon during learning?
 * $$XOR(A, B) = (A \lor B) \land \neg(A \land B)$$ ... necessary to be linearly separable
 * NOT(A) $1 - A$
 * A AND B $A \times B$

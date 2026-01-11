@@ -19,7 +19,17 @@ let perhaps-print(x: Belief, y: Belief): Nil = (
 Feedback loops update beliefs with backpropagation:
 
 ```
-(a and b or not c).observe(true)
+let perhaps-visit(a: Belief, b: Belief, c: Belief): Nil = (
+   (a and b or not c).observe(true)
+);
+```
+
+Feedback loops can be guarded by traditional boolean logic or even rational logic:
+
+```
+let perhaps-visit(a: Belief, b: Belief, c: Belief): Nil = (
+   if a then (a and b or not c).observe(true)
+);
 ```
 
 A belief behaves like a boolean in most situations, however it can be a dynamically updated value that the program learns.

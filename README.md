@@ -16,6 +16,12 @@ let perhaps-print(x: Belief, y: Belief): Nil = (
 );
 ```
 
+Feedback loops update beliefs with backpropagation:
+
+```
+(a and b or not c).observe(true)
+```
+
 A belief behaves like a boolean in most situations, however it can be a dynamically updated value that the program learns.
 
 The data structure is fairly simple:

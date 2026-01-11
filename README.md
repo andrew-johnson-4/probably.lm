@@ -28,7 +28,7 @@ Feedback loops can be guarded by traditional boolean logic or even rational logi
 
 ```
 let perhaps-visit(a: Belief, b: Belief, c: Belief): Nil = (
-   if a then (a and b or not c).observe(true)
+   if global-array.length<321 and not a then (a and b or not c).observe(true)
 );
 ```
 

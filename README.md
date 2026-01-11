@@ -47,6 +47,9 @@ The data structure is fairly simple:
 * NOT(A) $1 - A$
 * A AND B $A \times B$
 * A OR B $A + B - (A \times B)$
+* product T-NORM is differentiable for and
+* Blame for A: $\frac{\partial f}{\partial A} = B$
+* Blame for B: $\frac{\partial f}{\partial B} = A$
 * dimensionality: not all beliefs originate from simple booleans or map to simple booleans... what about classifiers etc.
 
 Demos:

@@ -37,6 +37,7 @@ A belief behaves like a boolean in most situations, however it can be a dynamica
 The data structure is fairly simple:
 * roots: a simple confidence value [0,1]
 * compounds: logic chaining based on truth tables for standard operations not/and/or/xor/implies etc.
+* since we are hard-coding the logic operators we don't need to learn them generally which makes the learning and math a lot simpler
 * `x and y` from the above example creates a new compound dynamically from the existing belief chain or roots supplied
 * learning can backpropagate information towards the roots
 * non-default activation functions can be implemented as adverbs `a and b @sigmoid`

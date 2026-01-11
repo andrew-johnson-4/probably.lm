@@ -50,6 +50,7 @@ The data structure is fairly simple:
 * product T-NORM is differentiable for and
 * Blame for A: $\frac{\partial f}{\partial A} = B$
 * Blame for B: $\frac{\partial f}{\partial B} = A$
+* just need to ensure a smooth gradient at all gates across all possible probability states
 * dimensionality: not all beliefs originate from simple booleans or map to simple booleans... what about classifiers etc.
 
 Demos:

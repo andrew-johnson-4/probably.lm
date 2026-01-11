@@ -43,6 +43,9 @@ The data structure is fairly simple:
 * can performance be good enough for active learning?
 * jitter by default: need to add an epsilon to break symmetry for initial deadlock in operators like xor
 * $$XOR(A, B) = (A \lor B) \land \neg(A \land B)$$ ... necessary to be linearly separable
+* NOT(A) $1 - A$
+* A AND B $A \times B$
+* A OR B $A + B - (A \times B)$
 * dimensionality: not all beliefs originate from simple booleans or map to simple booleans... what about classifiers etc.
 
 Demos:

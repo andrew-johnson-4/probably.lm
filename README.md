@@ -44,6 +44,11 @@ The data structure is fairly simple:
 * jitter by default: need to add an epsilon to break symmetry for initial deadlock in operators like xor
 * dimensionality: not all beliefs originate from simple booleans or map to simple booleans... what about classifiers etc.
 
+Demos:
+* active learning for MNIST classifications... see how long it takes to learn an alphabet from trial/error
+* active CartPole learning
+* collaborative art idk
+
 Goals:
 * maybe this will be the first major non-core library for LM/LSTS
 * it seems most interesting to me right now

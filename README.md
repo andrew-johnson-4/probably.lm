@@ -42,6 +42,7 @@ The data structure is fairly simple:
 * non-default activation functions can be implemented as adverbs `a and b @sigmoid`
 * can performance be good enough for active learning?
 * jitter by default: need to add an epsilon to break symmetry for initial deadlock in operators like xor
+* dimensionality: not all beliefs originate from simple booleans or map to simple booleans... what about classifiers etc.
 
 Goals:
 * maybe this will be the first major non-core library for LM/LSTS

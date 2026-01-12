@@ -53,6 +53,7 @@ The data structure is fairly simple:
 * Blame for B: $\frac{\partial f}{\partial B} = A$
 * just need to ensure a smooth gradient at all gates across all possible probability states
 * dimensionality: not all beliefs originate from simple booleans or map to simple booleans... what about classifiers etc.
+   * `Belief<range>` for non-boolean beliefs
 
 Demos:
 * active learning for MNIST classifications... see how long it takes to learn an alphabet from trial/error

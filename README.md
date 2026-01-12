@@ -40,7 +40,7 @@ The data structure is fairly simple:
 * since we are hard-coding the logic operators we don't need to learn them generally which makes the learning and math a lot simpler
 * `x and y` from the above example creates a new compound dynamically from the existing belief chain or roots supplied
 * learning can backpropagate information towards the roots
-* non-default activation functions can be implemented as adverbs `a and b @sigmoid`
+* non-default activation functions can be implemented as field/methods `(a and b).sigmoid`
 * can performance be good enough for active learning?
 * jitter by default: need to add an epsilon to break symmetry for initial deadlock in operators like xor
    * jitter at fact initialization or jitter as smaller epsilon during learning?

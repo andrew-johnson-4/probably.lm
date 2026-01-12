@@ -32,6 +32,11 @@ let perhaps-visit(a: Belief, b: Belief, c: Belief): Nil = (
 );
 ```
 
+NOTE: feedback loops separate the "conditional dependence" from "path dependence"
+* this is not an attempt to implement strictly mathematically sound Bayesian learning
+* that constraint could be a subset language or proven property, but this library won't force it or even attempt to
+* non-Bayesian learning is potentially very useful too
+
 A belief behaves like a boolean in most situations, however it can be a dynamically updated value that the program learns.
 
 The data structure is fairly simple:

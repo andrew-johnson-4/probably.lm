@@ -33,6 +33,7 @@ let perhaps-visit(a: Belief, b: Belief, c: Belief): Nil = (
 ```
 
 NOTE: feedback loops separate the "conditional dependence" from "path dependence"
+* example `a and b or not c` can be learned in a code path that has arbitrary prior conditions that are not present in inference or learning directly
 * this is not an attempt to implement strictly mathematically sound Bayesian learning
 * that constraint could be a subset language or proven property, but this library won't force it or even attempt to
 * non-Bayesian learning is potentially very useful too

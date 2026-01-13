@@ -14,6 +14,10 @@ Rational logic program:
 let perhaps-print(x: Belief, y: Belief): Nil = (
    if x and y then print("Yes!")
 );
+
+let variable1 = idk;
+let variable2 = idk;
+perhaps-print(variable1, variable2);
 ```
 
 Feedback loops update beliefs with backpropagation:
@@ -22,6 +26,11 @@ Feedback loops update beliefs with backpropagation:
 let perhaps-visit(a: Belief, b: Belief, c: Belief): Nil = (
    (a and b or not c).observe(true)
 );
+
+let variable1 = idk;
+let variable2 = idk;
+let variable3 = idk;
+perhaps-visit(variable1, variable2, variable3);
 ```
 
 Feedback loops can be guarded by traditional boolean logic or even rational logic:

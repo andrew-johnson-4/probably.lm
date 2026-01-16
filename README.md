@@ -9,7 +9,7 @@ Rational programming library for LM.
 
 so
 
-* what is the most ergonomic way to define and interact with neural network programming?
+* what is the most ergonomic way to define and interact with neural networks?
 * not just a library
 * what would the ideal *language* look like?
 * remember, these are just a different kind of function

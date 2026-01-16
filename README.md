@@ -5,7 +5,7 @@ Rational programming library for LM.
 * modern neural networks can be thought of as general function approximators
 * blackbox learning takes a long time to train, but can learn a lot of interesting things with just many training examples
 * whitebox learning converges faster
-* network topology affects what functions can be learned with that model and how fast it will converge
+* network topology affects what functions can be learned with that model, how fast it will converge, and the quality of the final result
 
 so
 

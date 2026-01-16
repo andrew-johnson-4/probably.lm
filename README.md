@@ -1,5 +1,22 @@
 Rational programming library for LM.
 
+### Problem Statement
+
+* modern neural networks can be thought of as general function approximators
+* blackbox learning takes a long time to train, but can learn a lot of interesting things with just many training examples
+* whitebox learning converges faster
+* network topology affects what functions can be learned with that model and how fast it will converge
+
+so
+
+* what is the most ergonomic way to define and interact with neural network programming?
+* not just a library
+* what would the ideal *language* look like?
+* remember, these are just a different kind of function
+* a type of function that learns and adapts
+
+### Examples
+
 Simple Boolean logic program:
 
 ```
